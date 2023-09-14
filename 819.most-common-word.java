@@ -5,8 +5,14 @@
  */
 
 // @lc code=start
+
+import java.util.Map;
+import java.util.HashMap;
+
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
+        int max = 0;
+        Map<String, Integer> map = new HashMap<>();
         
     }
 
